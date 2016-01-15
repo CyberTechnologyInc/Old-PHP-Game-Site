@@ -1,0 +1,497 @@
+/* generic */
+a.btn	{	
+	display: inline-block; 
+	margin: 0 5px 7px 5px;
+}
+	a:hover.btn	{	
+		text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.7); /* adds a bit of depth */
+	}
+
+/* padding sizes */
+.p05	{	padding: 5px;	}
+.p10	{	padding: 10px;	}
+.p12	{	padding: 12px;	}
+.p15	{	padding: 15px;	}
+
+/* font sizes */
+.f10	{	font-size: 10px;	}
+.f12	{	font-size: 12px;	}
+.f14	{	font-size: 14px;	}
+.f16	{	font-size: 16px;	}
+
+/* rounded corners */
+.rc02	{	-moz-border-radius: 2px;	-webkit-border-radius: 2px;		border-radius: 2px; }
+.rc05	{	-moz-border-radius: 5px;	-webkit-border-radius: 5px;		border-radius: 5px; }
+.rc10	{	-moz-border-radius: 10px;	-webkit-border-radius: 10px;	border-radius: 10px; }
+.rc15	{	-moz-border-radius: 15px;	-webkit-border-radius: 15px;	border-radius: 15px; }
+.rc20	{	-moz-border-radius: 20px;	-webkit-border-radius: 20px;	border-radius: 20px; }
+
+/* special styles */
+.cap	{	text-transform: uppercase;	}
+.low	{	text-transform: lowercase;	}
+img.social	{	display: inline-block;	}
+	img.social.fl-left	{	float: left; margin: 0 7px 0 0;	}
+	img.social.fl-right	{	float: right; margin: 0 0 0 7px;	}
+
+.lt	{	color: #111111;	text-shadow: 0px 1px 0px rgba(200, 200, 200, 0.7); /* adds a bit of depth */	}
+	a:hover.lt	{	color: #111111;	text-shadow: 0px -1px 0px rgba(200, 200, 200, 0.7); /* adds a bit of depth */	}
+.dk	{	color: #ffffff;	text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */	}
+	a:hover.dk	{	color: #ffffff;	text-shadow: 0px -1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */	}
+
+/* attached tab styles */
+.tab01a	{	-moz-border-radius: 10px 10px 10px 0;	-webkit-border-radius: 10px 10px 10px 0;	border-radius: 10px 10px 10px 0;	}
+.tab01b	{	-moz-border-radius: 10px 10px 0 10px;	-webkit-border-radius: 10px 10px 0 10px;	border-radius: 10px 10px 0 10px;	}
+.tab01c	{	-moz-border-radius: 10px 0 10px 10px;	-webkit-border-radius: 10px 0 10px 10px;	border-radius: 10px 0 10px 10px;	}
+.tab01d	{	-moz-border-radius: 0 10px 10px 10px;	-webkit-border-radius: 0 10px 10px 10px;	border-radius: 0 10px 10px 10px;	}
+
+.tab02a	{	-moz-border-radius: 10px 10px 0 0;	-webkit-border-radius: 10px 10px 0 0;	border-radius: 10px 10px 0 0;	}
+.tab02b	{	-moz-border-radius: 0 0 10px 10px;	-webkit-border-radius: 0 0 10px 10px;	border-radius: 0 0 10px 10px;	}
+.tab02c	{	-moz-border-radius: 10px 0 0 10px;	-webkit-border-radius: 10px 0 0 10px;	border-radius: 10px 0 0 10px;	}
+.tab02d	{	-moz-border-radius: 0 10px 10px 0;	-webkit-border-radius: 0 10px 10px 0;	border-radius: 0 10px 10px 0;	}
+
+.tab03a	{	-moz-border-radius: 10px 0 0 0;	-webkit-border-radius: 10px 0 0 0;	border-radius: 10px 0 0 0;	}
+.tab03b	{	-moz-border-radius: 0 10px 0 0;	-webkit-border-radius: 0 10px 0 0;	border-radius: 0 10px 0 0;	}
+.tab03c	{	-moz-border-radius: 0 0 10px 0;	-webkit-border-radius: 0 0 10px 0;	border-radius: 0 0 10px 0;	}
+.tab03d	{	-moz-border-radius: 0 0 0 10px;	-webkit-border-radius: 0 0 0 10px;	border-radius: 0 0 0 10px;	}
+
+.tab04a	{	-moz-border-radius: 10px 0;	-webkit-border-radius: 10px 0;	border-radius: 10px 0;	}
+.tab04b	{	-moz-border-radius: 0 10px;	-webkit-border-radius: 0 10px;	border-radius: 0 10px;	}
+
+/* button colours */
+
+/* neutral */
+.btn.lt.grey	{	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #d1d1d1), color-stop(0.62, #ededed));	
+	background: -moz-linear-gradient(center bottom, #d1d1d1 23%, #ededed 62%);
+	background-color: #d1d1d1; /* backup for non-webkit browsers */
+	border: 1px solid #d1d1d1;
+	color: #111111;
+}
+	a:hover.btn.lt.grey	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #c7c7c7), color-stop(0.62, #e8e8e8));	
+		background: -moz-linear-gradient(center bottom, #c7c7c7 23%, #e8e8e8 62%);
+		background-color: #e8e8e8; /* backup for non-webkit browsers */
+		border: 1px solid #d1d1d1;
+	}
+	a:focus.btn.lt.grey, a:active.btn.lt.grey	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #e8e8e8), color-stop(0.62, #c7c7c7));	
+		background: -moz-linear-gradient(center bottom, #e8e8e8 23%, #c7c7c7 62%);
+		background-color: #e8e8e8; /* backup for non-webkit browsers */
+		border: 1px solid #d1d1d1;
+		text-shadow: 0px -1px 0px rgba(225, 225, 225, 0.7);/* adds a bit of depth */
+	}
+.btn.dk.grey	{
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #212121), color-stop(0.62, #464646));	
+	background: -moz-linear-gradient(center bottom, #212121 23%, #464646 62%);
+	background-color: #464646; /* backup for non-webkit browsers */
+	border: 1px solid #3c3c3c;
+}
+	a:hover.btn.dk.grey	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #191919), color-stop(0.62, #3c3c3c));	
+		background: -moz-linear-gradient(center bottom, #191919 23%, #3c3c3c 62%);
+		background-color: #191919; /* backup for non-webkit browsers */
+	}
+	a:focus.btn.dk.grey, a:active.btn.dk.grey	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #3c3c3c), color-stop(0.62, #191919));	
+		background: -moz-linear-gradient(center bottom, #3c3c3c 23%, #191919 62%);
+		background-color: #3c3c3c; /* backup for non-webkit browsers */
+	}
+	
+/* red tones */
+.btn.dk.red {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #8a1919), color-stop(0.62, #ac3333));	
+	background: -moz-linear-gradient(center bottom, #8a1919 23%, #ac3333 62%);
+	background-color: #8a1919; /* backup for non-webkit browsers */
+	border: 1px solid #710f0f;
+}
+	a:hover.btn.dk.red	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #710f0f), color-stop(0.62, #921d1d));	
+		background: -moz-linear-gradient(center bottom, #710f0f 23%, #921d1d 62%);
+		background-color: #710f0f; /* backup for non-webkit browsers */
+		border: 1px solid #710f0f;
+	}
+	a:focus.btn.dk.red, a:active.btn.dk.red	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #921d1d), color-stop(0.62, #710f0f));	
+		background: -moz-linear-gradient(center bottom, #921d1d 23%, #710f0f 62%);
+		background-color: #921d1d; /* backup for non-webkit browsers */
+		border: 1px solid #710f0f;
+	}
+.btn.lt.red {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #cc3535), color-stop(0.62, #e66262));	
+	background: -moz-linear-gradient(center bottom, #cc3535 23%, #e66262 62%);
+	background-color: #e66262; /* backup for non-webkit browsers */
+	border: 1px solid #cc3535;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+}
+	a:hover.btn.lt.red	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #b32121), color-stop(0.62, #d33c3c));	
+		background: -moz-linear-gradient(center bottom, #b32121 23%, #d33c3c 62%);
+		background-color: #d33c3c; /* backup for non-webkit browsers */
+		border: 1px solid #b32121;
+		color: #ffffff;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	a:focus.btn.lt.red, a:active.btn.lt.red	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #d33c3c), color-stop(0.62, #b32121));	
+		background: -moz-linear-gradient(center bottom, #d33c3c 23%, #b32121 62%);
+		background-color: #d33c3c; /* backup for non-webkit browsers */
+		border: 1px solid #b32121;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	
+.btn.dk.orange {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #802c08), color-stop(0.62, #b44818));	
+	background: -moz-linear-gradient(center bottom, #802c08 23%, #b44818 62%);
+	background-color: #b44818; /* backup for non-webkit browsers */
+	border: 1px solid #802c08;
+}
+	a:hover.btn.dk.orange	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #611e00), color-stop(0.62, #9a380e));	
+		background: -moz-linear-gradient(center bottom, #611e00 23%, #9a380e 62%);
+		background-color: #611e00; /* backup for non-webkit browsers */
+		border: 1px solid #611e00;
+	}
+	a:focus.btn.dk.orange, a:active.btn.dk.orange	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #9a380e), color-stop(0.62, #611e00));	
+		background: -moz-linear-gradient(center bottom, #9a380e 23%, #611e00 62%);
+		background-color: #9a380e; /* backup for non-webkit browsers */
+		border: 1px solid #611e00;
+	}
+.btn.lt.orange {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #ca5421), color-stop(0.62, #fa8046));	
+	background: -moz-linear-gradient(center bottom, #ca5421 23%, #fa8046 62%);
+	background-color: #fa8046; /* backup for non-webkit browsers */
+	border: 1px solid #ca5421;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+}
+	a:hover.btn.lt.orange	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #aa3a07), color-stop(0.62, #e66a2f));	
+		background: -moz-linear-gradient(center bottom, #aa3a07 23%, #e66a2f 62%);
+		background-color: #e66a2f; /* backup for non-webkit browsers */
+		border: 1px solid #ca5421;
+		color: #ffffff;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	a:focus.btn.lt.orange, a:active.btn.lt.orange	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #e66a2f), color-stop(0.62, #aa3a07));	
+		background: -moz-linear-gradient(center bottom, #e66a2f 23%, #aa3a07 62%);
+		background-color: #e66a2f; /* backup for non-webkit browsers */
+		border: 1px solid #aa3a07;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	
+.btn.dk.pink {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #8a1960), color-stop(0.62, #ac337f));	
+	background: -moz-linear-gradient(center bottom, #8a1960 23%, #ac337f 62%);
+	background-color: #ac337f; /* backup for non-webkit browsers */
+	border: 1px solid #8a1960;
+}
+	a:hover.btn.dk.pink	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #710f4d), color-stop(0.62, #921d67));	
+		background: -moz-linear-gradient(center bottom, #710f4d 23%, #921d67 62%);
+		background-color: #921d67; /* backup for non-webkit browsers */
+		border: 1px solid #8a1960;
+	}
+	a:focus.btn.dk.pink, a:active.btn.dk.pink	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #921d67), color-stop(0.62, #710f4d));	
+		background: -moz-linear-gradient(center bottom, #921d67 23%, #710f4d 62%);
+		background-color: #710f4d; /* backup for non-webkit browsers */
+		border: 1px solid #921d67;
+	}
+.btn.lt.pink {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #cc3594), color-stop(0.62, #e662b5));	
+	background: -moz-linear-gradient(center bottom, #cc3594 23%, #e662b5 62%);
+	background-color: #e662b5; /* backup for non-webkit browsers */
+	border: 1px solid #cc3594;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+}
+	a:hover.btn.lt.pink	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #b3217d), color-stop(0.62, #d33c9b));	
+		background: -moz-linear-gradient(center bottom, #b3217d 23%, #d33c9b 62%);
+		background-color: #d33c9b; /* backup for non-webkit browsers */
+		border: 1px solid #b3217d;
+		color: #ffffff;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	a:focus.btn.lt.pink, a:active.btn.lt.pink	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #d33c9b), color-stop(0.62, #b3217d));	
+		background: -moz-linear-gradient(center bottom, #d33c9b 23%, #b3217d 62%);
+		background-color: #d33c9b; /* backup for non-webkit browsers */
+		border: 1px solid #b3217d;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	
+/* blue tones */
+.btn.dk.blue {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #19488f), color-stop(0.62, #3167b9));	
+	background: -moz-linear-gradient(center bottom, #19488f 23%, #3167b9 62%);
+	background-color: #3167b9; /* backup for non-webkit browsers */
+	border: 1px solid #19488f;
+}
+	a:hover.btn.dk.blue	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #123b79), color-stop(0.62, #2458a7));	
+		background: -moz-linear-gradient(center bottom, #123b79 23%, #2458a7 62%);
+		background-color: #19488f; /* backup for non-webkit browsers */
+		border: 1px solid #19488f;
+	}
+	a:focus.btn.dk.blue, a:active.btn.dk.blue	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #2458a7), color-stop(0.62, #123b79));
+		background: -moz-linear-gradient(center bottom, #2458a7 23%, #123b79 62%);	
+		background-color: #2458a7; /* backup for non-webkit browsers */
+		border: 1px solid #19488f;
+	}
+.btn.lt.blue {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #3580d1), color-stop(0.62, #5fa7ed));	
+	background: -moz-linear-gradient(center bottom, #3580d1 23%, #5fa7ed 62%);
+	background-color: #5fa7ed; /* backup for non-webkit browsers */
+	border: 1px solid #3580d1;
+}
+	a:hover.btn.lt.blue	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #276ebc), color-stop(0.62, #4995e3));	
+		background: -moz-linear-gradient(center bottom, #276ebc 23%, #4995e3 62%);
+		background-color: #3580d1; /* backup for non-webkit browsers */
+		border: 1px solid #3580d1;
+	}
+	a:focus.btn.lt.blue, a:active.btn.lt.blue	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #4995e3), color-stop(0.62, #276ebc));	
+		background: -moz-linear-gradient(center bottom, #4995e3 23%, #276ebc 62%);
+		background-color: #4995e3; /* backup for non-webkit browsers */
+		border: 1px solid #3580d1;
+	}
+	
+.btn.dk.violet {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #35198f), color-stop(0.62, #5131b9));	
+	background: -moz-linear-gradient(center bottom, #35198f 23%, #5131b9 62%);
+	background-color: #5131b9; /* backup for non-webkit browsers */
+	border: 1px solid #35198f;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+}
+	a:hover.btn.dk.violet	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #2a1279), color-stop(0.62, #4324a7));	
+		background: -moz-linear-gradient(center bottom, #2a1279 23%, #4324a7 62%);
+		background-color: #4324a7; /* backup for non-webkit browsers */
+		border: 1px solid #2a1279;
+		color: #ffffff;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	a:focus.btn.dk.violet, a:active.btn.dk.violet	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #4324a7), color-stop(0.62, #2a1279));	
+		background: -moz-linear-gradient(center bottom, #4324a7 23%, #2a1279 62%);
+		background-color: #4324a7; /* backup for non-webkit browsers */
+		border: 1px solid #2a1279;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+.btn.lt.violet {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #4d35d1), color-stop(0.62, #715fed));	
+	background: -moz-linear-gradient(center bottom, #4d35d1 23%, #715fed 62%);
+	background-color: #715fed; /* backup for non-webkit browsers */
+	border: 1px solid #4d35d1;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+}
+	a:hover.btn.lt.violet	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #3e27bc), color-stop(0.62, #5f49e3));	
+		background: -moz-linear-gradient(center bottom, #3e27bc 23%, #5f49e3 62%);
+		background-color: #5f49e3; /* backup for non-webkit browsers */
+		border: 1px solid #3e27bc;
+		color: #ffffff;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	a:focus.btn.lt.violet, a:active.btn.lt.violet	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #5f49e3), color-stop(0.62, #3e27bc));	
+		background: -moz-linear-gradient(center bottom, #5f49e3 23%, #3e27bc 62%);
+		background-color: #5f49e3; /* backup for non-webkit browsers */
+		border: 1px solid #3e27bc;
+		text-shadow: 0px 1px 0px rgba(33, 33, 33, 0.7); /* adds a bit of depth */
+	}
+	
+.btn.dk.teal {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #198f8b), color-stop(0.62, #31b9b5));	
+	background: -moz-linear-gradient(center bottom, #198f8b 23%, #31b9b5 62%);
+	background-color: #31b9b5; /* backup for non-webkit browsers */
+	border: 1px solid #198f8b;
+}
+	a:hover.btn.dk.teal	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #127975), color-stop(0.62, #24a7a3));	
+		background: -moz-linear-gradient(center bottom, #127975 23%, #24a7a3 62%);
+		background-color: #24a7a3; /* backup for non-webkit browsers */
+		border: 1px solid #198f8b;
+	}
+	a:focus.btn.dk.violet, a:active.btn.dk.teal	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #24a7a3), color-stop(0.62, #127975));
+		background: -moz-linear-gradient(center bottom, #24a7a3 23%, #127975 62%);	
+		background-color: #24a7a3; /* backup for non-webkit browsers */
+		border: 1px solid #127975;
+	}
+.btn.lt.teal {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #35d1bf), color-stop(0.62, #5fedd9));	
+	background: -moz-linear-gradient(center bottom, #35d1bf 23%, #5fedd9 62%);
+	background-color: #5fedd9; /* backup for non-webkit browsers */
+	border: 1px solid #35d1bf;/
+}
+	a:hover.btn.lt.teal	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #27bcab), color-stop(0.62, #49e3cf));	
+		background: -moz-linear-gradient(center bottom, #27bcab 23%, #49e3cf 62%);
+		background-color: #49e3cf; /* backup for non-webkit browsers */
+		border: 1px solid #35d1bf;
+	}
+	a:focus.btn.lt.teal, a:active.btn.lt.teal	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #49e3cf), color-stop(0.62, #27bcab));	
+		background: -moz-linear-gradient(center bottom, #49e3cf 23%, #27bcab 62%);
+		background-color: #49e3cf; /* backup for non-webkit browsers */
+		border: 1px solid #27bcab;
+	}
+	
+/* green tones */
+.btn.dk.green {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #216724), color-stop(0.62, #39943e));	
+	background: -moz-linear-gradient(center bottom, #216724 23%, #39943e 62%);
+	background-color: #39943e; /* backup for non-webkit browsers */
+	border: 1px solid #216724;
+}
+	a:hover.btn.dk.green	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #134e16), color-stop(0.62, #2b7d2f));
+		background: -moz-linear-gradient(center bottom, #134e16 23%, #2b7d2f 62%);	
+		background-color: #216724; /* backup for non-webkit browsers */
+		border: 1px solid #216724;
+	}
+	a:focus.btn.dk.green, a:active.btn.dk.green	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #2b7d2f), color-stop(0.62, #134e16));	
+		background: -moz-linear-gradient(center bottom, #2b7d2f 23%, #134e16 62%);
+		background-color: #2b7d2f; /* backup for non-webkit browsers */
+		border: 1px solid #216724;
+	}
+.btn.lt.green {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #44a749), color-stop(0.62, #6cd573));	
+	background: -moz-linear-gradient(center bottom, #44a749 23%, #6cd573 62%);
+	background-color: #6cd573; /* backup for non-webkit browsers */
+	border: 1px solid #44a749;
+}
+	a:hover.btn.lt.green	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #29882f), color-stop(0.62, #55c05c));	
+		background: -moz-linear-gradient(center bottom, #29882f 23%, #55c05c 62%);
+		background-color: #44a749; /* backup for non-webkit browsers */
+		border: 1px solid #44a749;
+	}
+	a:focus.btn.lt.green, a:active.btn.lt.green	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #55c05c), color-stop(0.62, #29882f));	
+		background: -moz-linear-gradient(center bottom, #55c05c 23%, #29882f 62%);
+		background-color: #55c05c; /* backup for non-webkit browsers */
+		border: 1px solid #55c05c;
+	}
+	
+.btn.dk.lime {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #678f19), color-stop(0.62, #86b330));	
+	background: -moz-linear-gradient(center bottom, #678f19 23%, #86b330 62%);
+	background-color: #86b330; /* backup for non-webkit browsers */
+	border: 1px solid #678f19;
+}
+	a:hover.btn.dk.lime	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #537511), color-stop(0.62, #719a23));	
+		background: -moz-linear-gradient(center bottom, #537511 23%, #719a23 62%);
+		background-color: #719a23; /* backup for non-webkit browsers */
+		border: 1px solid #678f19;
+	}
+	a:focus.btn.dk.lime, a:active.btn.dk.lime	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #719a23), color-stop(0.62, #537511));	
+		background: -moz-linear-gradient(center bottom, #719a23 23%, #537511 62%);
+		background-color: #719a23; /* backup for non-webkit browsers */
+		border: 1px solid #537511;
+	}
+.btn.lt.lime {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #92d135), color-stop(0.62, #adea5e));	
+	background: -moz-linear-gradient(center bottom, #92d135 23%, #adea5e 62%);
+	background-color: #adea5e; /* backup for non-webkit browsers */
+	border: 1px solid #92d135;
+}
+	a:hover.btn.lt.lime	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #7db725), color-stop(0.62, #9dda47));	
+		background: -moz-linear-gradient(center bottom, #7db725 23%, #9dda47 62%);
+		background-color: #9dda47; /* backup for non-webkit browsers */
+		border: 1px solid #92d135;
+	}
+	a:focus.btn.lt.lime, a:active.btn.lt.lime	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #9dda47), color-stop(0.62, #7db725));
+		background: -moz-linear-gradient(center bottom, #9dda47 23%, #7db725 62%);
+		background-color: #9dda47; /* backup for non-webkit browsers */
+		border: 1px solid #9dda47;
+	}
+	
+/* yellow tones */
+.btn.dk.yellow {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #8f6c19), color-stop(0.62, #b38c30));	
+	background: -moz-linear-gradient(center bottom, #8f6c19 23%, #b38c30 62%);
+	background-color: #b38c30; /* backup for non-webkit browsers */
+	border: 1px solid #8f6c19;
+}
+	a:hover.btn.dk.yellow	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #755711), color-stop(0.62, #9a7723));	
+		background: -moz-linear-gradient(center bottom, #755711 23%, #9a7723 62%);
+		background-color: #8f6c19; /* backup for non-webkit browsers */
+		border: 1px solid #8f6c19;
+	}
+	a:focus.btn.dk.yellow, a:active.btn.dk.yellow	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #9a7723), color-stop(0.62, #755711));	
+		background: -moz-linear-gradient(center bottom, #9a7723 23%, #755711 62%);
+		background-color: #9a7723; /* backup for non-webkit browsers */
+		border: 1px solid #8f6c19;
+	}
+.btn.lt.yellow {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #d1ad35), color-stop(0.62, #daba47));	
+	background: -moz-linear-gradient(center bottom, #d1ad35 23%, #daba47 62%);
+	background-color: #daba47; /* backup for non-webkit browsers */
+	border: 1px solid #d1ad35;
+}
+	a:hover.btn.lt.yellow	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #b79425), color-stop(0.62, #daba47));	
+		background: -moz-linear-gradient(center bottom, #b79425 23%, #daba47 62%);
+		background-color: #d1ad35; /* backup for non-webkit browsers */
+		border: 1px solid #d1ad35;
+	}
+	a:focus.btn.lt.yellow, a:active.btn.lt.yellow	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #daba47), color-stop(0.62, #b79425));	
+		background: -moz-linear-gradient(center bottom, #daba47 23%, #b79425 62%);
+		background-color: #daba47; /* backup for non-webkit browsers */
+		border: 1px solid #d1ad35;
+	}
+
+.btn.dk.mustard {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #8a6119), color-stop(0.62, #ac8033));	
+	background: -moz-linear-gradient(center bottom, #8a6119 23%, #ac8033 62%);
+	background-color: #ac8033; /* backup for non-webkit browsers */
+	border: 1px solid #8a6119;
+}
+	a:hover.btn.dk.mustard	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #714d0f), color-stop(0.62, #92671d));	
+		background: -moz-linear-gradient(center bottom, #714d0f 23%, #92671d 62%);
+		background-color: #8a6119; /* backup for non-webkit browsers */
+		border: 1px solid #8a6119;
+	}
+	a:focus.btn.dk.mustard, a:active.btn.dk.mustard	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #92671d), color-stop(0.62, #714d0f));	
+		background: -moz-linear-gradient(center bottom, #92671d 23%, #714d0f 62%);
+		background-color: #92671d; /* backup for non-webkit browsers */
+		border: 1px solid #8a6119;
+	}
+.btn.lt.mustard {	
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #cc9535), color-stop(0.62, #e6b662));	
+	background: -moz-linear-gradient(center bottom, #cc9535 23%, #e6b662 62%);
+	background-color: #e6b662; /* backup for non-webkit browsers */
+	border: 1px solid #cc9535;
+}
+	a:hover.btn.lt.mustard	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #b37d21), color-stop(0.62, #d39c3c));	
+		background: -moz-linear-gradient(center bottom, #b37d21 23%, #d39c3c 62%);
+		background-color: #cc9535; /* backup for non-webkit browsers */
+		border: 1px solid #cc9535;
+	}
+	a:focus.btn.lt.mustard, a:active.btn.lt.mustard	{	
+		background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.23, #d39c3c), color-stop(0.62, #b37d21)
+		background: -moz-linear-gradient(center bottom, #d39c3c 23%, #b37d21 62%);
+		background-color: #d39c3c; /* backup for non-webkit browsers */
+		border: 1px solid #cc9535;
+	}
