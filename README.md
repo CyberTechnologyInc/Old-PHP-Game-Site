@@ -12,7 +12,8 @@ You will need to use a path find and replace. Replace the account name (u2203912
 
 ### Contribution guidelines ###
 
-Contribute whatever you want, it's a steaming pile of sh*t.
+I doubt anyone will be contributing to this...
+But in any case, feel free.
 
 ### Who do I talk to? ###
 
